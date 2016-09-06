@@ -10,6 +10,7 @@ We try to understand how:
 
 Inspired by the Justice Department's report on the Baltimore Police Department.
 
+
 ## Playing
 
 ```bash
@@ -18,6 +19,8 @@ docker run  -p 8888:8888 -v $(pwd):/home/jovyan/work  jupyter/scipy-notebook
 
 ## Data
 
-All data requests form Amherst PD records department. Currently just looking at
-summary stats of gender, race, by year. Haven't analyzed PDF arrest logs yet.
-Hoping to get them in an easier format.
+All data form the Amherst PD records department, big thanks to them for being
+so helpful.
+
+Currently just looking at summary stats of gender, race, by year.
+Haven't analyzed PDF arrest logs yet. Hoping to get them in an easier format.
